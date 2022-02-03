@@ -1,0 +1,9 @@
+.navbar:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+.image{
+    border: 1px solid;
+    padding: 5px;
+}

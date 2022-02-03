@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/vegitables.css">
+    <title>Bootstrap Workshop</title>   
+</head>
+<body>
+    <div class="container" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Some Favorites</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link navbar" aria-current="page" href="#">Celery Root</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link navbar" href="#">Spaghetti Squash</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link navbar" href="#">Mushrooms</a>
+                    </li>
+                </ul>
+                <form class="form-search">
+                    <input type="text" class="form-control search" >
+                    <button type="submit" onclick="searchVeggie()" class="btn btn-primary">Search Veggie</button>
+                </form>
+            </div>
+            <div class="col-sm-9">
+                <div class="alert alert-danger" role="alert">
+                    <strong>Uh oh!</strong> Have you had your daily dose of veggies today??
+                </div>
+                <h1>Wild & Wacky Vegetables</h1>
+                <blockquote class="blockquote">
+                    <p>The beet is the most intense of vegetables. The radish, admittedly, is more feverish, but the fire of the radish is a cold fire, the fire of discontent not of passion. Tomatoes are lusty enough, yet there runs through tomatoes an undercurrent of frivolity. Beets are deadly serious.
+                    </p>
+                    <small>Tom Robbins</small>
+                </blockquote><br>
+                <div>
+                    <h3>What is celery root good for?</h3>
+                    <p> Rich in antioxidants and nutrients, it offers impressive health benefits, such as improved digestion, bone and heart health, as well as possible anticancer effects. You can enjoy celeriac raw or cooked as a healthier, lower-carb alternative to potatoes and other root vegetables.</p>
+                </div>
+                <div>
+                    <h3>Is spaghetti squash healthy?</h3>
+                    <p> Spaghetti squash is a low-calorie food. Its fiber content makes it filling. Since people use it as a substitute for high-calorie foods, it can be a valuable part of a weight-control regimen. Maintaining a healthy weight can improve many conditions, including diabetes and heart disease.</p>
+                </div>
+                <div>
+                    <h3>What are the benefits of eating mushrooms?</h3>
+                    <p>
+                        Mushrooms are a rich, low calorie source of fiber, protein, and antioxidants. They may also mitigate the risk of developing serious health conditions, such as Alzheimer's, heart disease, cancer, and diabetes. They're also great sources of: Selenium.</p>
+                </div><br><br>
+                <div>
+                    <h2>Some benifits</h2>
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Veggie</th>
+                            <th scope="col">Benifits</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Celery Root</td>
+                            <td>Bone health, Diabetes, Heart health, high in nutrition</td>
+                          </tr>
+                          <tr>
+                            <td>Spaghetti Squash</td>
+                            <td>High in vitamins, low-carb and nutritional value</td>
+                          </tr>
+                          <tr>
+                            <td>Mushrooms</td>
+                            <td>Rich, low calorie source of fiber, protein, and antioxidants.</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <p>
+                            <strong>Celeriac</strong> has green leaves and stalks that grow above ground and roots with a rough, brown skin that grow underground. While farmers grow celery for its edible leaves and stalks, they grow celeriac for its roots.
+                        Some people refer to celeriac as celery root, but it is not the root of a celery stalk.
+                            
+                            Other names for celeriac are knob celery and turnip-rooted celery. It belongs to the same plant family as carrots and is related to celery, parsley, and parsnips.
+                        </p>
+                        <p>
+                            <strong>Spaghetti squash</strong> can be cooked in a variety of ways, including baking, boiling, steaming, or microwaving.[2] Once cooked the flesh of this fruit can be prepared in a way that its “strands” look like and are as long as traditional spaghetti noodles.
+                            It can be served with or without sauce as a substitute for pasta, and its seeds can be roasted, similar to pumpkin seeds.
+                        </p>
+                        <p>
+                            A <strong>mushroom</strong> or toadstool is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground, on soil, or on its food source.
+                            The standard for the name "mushroom" is the cultivated white button mushroom, Agaricus bisporus; hence the word "mushroom" is most often applied to those fungi (Basidiomycota, Agaricomycetes) that have a stem (stipe), a cap (pileus), and gills (lamellae, sing. lamella) on the underside of the cap. "Mushroom" also describes a variety of other gilled fungi, with or without stems, 
+                            therefore the term is used to describe the fleshy fruiting bodies of some Ascomycota. These gills produce microscopic spores that help the fungus spread across the ground or its occupant surface.
+                        </p><br>
+                            <div class="card-group">
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top img-fluid img-thumbnail" src="../imgaes/calery_root.jpeg" alt="Calery Root">
+                                    </a>
+                                    <div class="card-block">
+                                        <h4 class="card-title">Calery Root</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top img-fluid img-thumbnail" src="../imgaes/spaghetti_squash.jpeg" alt="Spaghetti squash">
+                                    </a>
+                                    <div class="card-block">
+                                        <h4 class="card-title">Spaghetti squash</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <a href="#">
+                                        <img class="card-img-top img-fluid img-thumbnail" src="../imgaes/mashroom.jpeg" alt="Mashroom">
+                                    </a>
+                                    <div class="card-block">
+                                        <h4 class="card-title">Mashroom</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/vegitables.js"></script>
+</body>
+</html>
